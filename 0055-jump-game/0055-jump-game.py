@@ -7,6 +7,7 @@ class Solution:
             x = max(x, arr[i]+i)
             if i == y:
                 y = x
+                i = x
                 z +=1
     
         if y >= n-1:
